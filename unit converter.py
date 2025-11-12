@@ -1,4 +1,3 @@
-import dataset = torchvision.datasets.DataFolder('path/to/root', loader)
 
 def primInfo():
     name = input("What is your name? ").lower()
@@ -19,4 +18,5 @@ def secInfo():
 
 thing= [primInfo(), secInfo()]
 print(thing[0])
+
 
